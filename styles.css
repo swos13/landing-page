@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.landing{
+    background-color: rgb(10,10,70);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    color: white;
+}
+.header {
+    display: flex;
+    background-color: rgb(10,10,70);
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+.first-section {
+    display: flex;
+    gap: 64px;
+}
+
+.sub-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up {
+    max-width: 300px;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+img{
+    width:100px;
+    height:100px;
+}
+
+.footer{
+    background-color: rgb(200,200,200);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h3 {
+    text-align:center;
+}
+
+.landing, .information, .quote, .call-to-action, .footer {
+    padding: 0 20vh;
+}
