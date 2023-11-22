@@ -8,18 +8,27 @@ body {
 }
 
 .hero{
-    background-color: rgb(10,10,70);
+    background-color: #1F2937;
     color: white;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 32px;
+    gap: 64px;
 }
+
+.subtitle h2 {
+    font: bolder 48px Arial;
+    margin: 0;
+}
+
+.first-section img {
+    width: 40%;
+}
+
 .header {
     display: flex;
-    background-color: rgb(10,10,70);
     justify-content: space-between;
     align-items: center;
 }
@@ -53,11 +62,13 @@ li a{
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    padding: 32px 20%;
 }
 
 
 .quote {
     background-color: #E5E7EB;
+    padding: 64px 20%;
 }
 
 
@@ -68,7 +79,7 @@ li a{
 .call-to-action {
     background-color: #3882F6;
     color: white;
-    margin: 0 15%;
+    margin: 64px 15%;
     padding: 30px 5%;
 
     display: flex;
@@ -89,9 +100,9 @@ h4 {
     border-color: white;
 }
 
-img{
-    width:100px;
-    height:100px;
+.information img{
+    width:150px;
+    height:150px;
 }
 
 .footer{
@@ -101,11 +112,13 @@ img{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 
 h3 {
-    text-align:center;
+    text-align: center;
 }
 
 .hero, .footer {
@@ -113,6 +126,6 @@ h3 {
     padding-right: 15%;
 }
 
-.information, .quote {
-    padding: 0px 20%;
+.hero, .information, .quote {
+    padding-bottom: 64px;
 }
