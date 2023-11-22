@@ -21,11 +21,9 @@ body {
 .subtitle h2 {
     font: bolder 48px Arial;
     margin: 0;
+    flex: 1;
 }
 
-.first-section img {
-    width: 40%;
-}
 
 .header {
     display: flex;
@@ -46,7 +44,15 @@ li a{
 
 .first-section {
     display: flex;
+    justify-content: space-between;
     gap: 64px;
+}
+
+.first-section img {
+    width: 400px;
+
+    align-self: center;
+
 }
 
 .sub-section {
