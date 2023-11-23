@@ -126,7 +126,13 @@ h2 {
 }
 
 .quote p {
-    font: italic lighter 24px Arial;
+    font: italic lighter 28px Arial;
+    font-weight: 100;
+}
+
+.author{
+    font: bolder 24px Arial;
+    text-align: right;
 }
 
 .call-to-action {
