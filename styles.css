@@ -143,7 +143,7 @@ h2 {
     color: white;
     border-radius: 10px;
     margin: 64px 15%;
-    padding: 30px 5%;
+    padding: 32px 5%;
 
     display: flex;
     justify-content: space-between;
@@ -182,6 +182,6 @@ h4 {
     padding-right: 15%;
 }
 
-.hero, .information, .quote {
+.hero, .information {
     padding-bottom: 128px;
 }
