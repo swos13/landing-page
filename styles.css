@@ -68,10 +68,13 @@ a:active{
 
 }
 
+#sign-up-button-one {
+    border: none;
+}
+
 .button-sign-up {
     width: 140px;
     background-color: #3882F6;
-    border: none;
     border-radius: 10px;
     font: 600 18px Arial;
     color: white;
@@ -138,25 +141,28 @@ h2 {
 .call-to-action {
     background-color: #3882F6;
     color: white;
+    border-radius: 10px;
     margin: 64px 15%;
     padding: 30px 5%;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 h4 {
     margin:0;
+    font-size: 20px;
 }
 
-.call-to-action button {
-    flex: 0 1 100px;
-    height: 48px;
+.button{
+    display:flex;
+    justify-content: center;
+}
+
+#sign-up-button-two {
     color: white;
-    background-color: #3882F6;
-    border-color: white;
+    border: 2px solid white;
 }
 
 .footer{
